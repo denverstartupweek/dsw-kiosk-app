@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904BCD3D1F72E64C003A76D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BCD3C1F72E64C003A76D7 /* AppDelegate.swift */; };
+		904BCD3F1F72E64C003A76D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BCD3E1F72E64C003A76D7 /* ViewController.swift */; };
+		904BCD421F72E64C003A76D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904BCD401F72E64C003A76D7 /* Main.storyboard */; };
+		904BCD441F72E64C003A76D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904BCD431F72E64C003A76D7 /* Assets.xcassets */; };
+		904BCD471F72E64C003A76D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904BCD451F72E64C003A76D7 /* LaunchScreen.storyboard */; };
+		904BCD521F72E64D003A76D7 /* DSW_KioskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BCD511F72E64D003A76D7 /* DSW_KioskTests.swift */; };
+		904BCD5D1F72E64D003A76D7 /* DSW_KioskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904BCD5C1F72E64D003A76D7 /* DSW_KioskUITests.swift */; };
+		90DB96671F7418AE00A9E7C8 /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB96661F7418AE00A9E7C8 /* Regex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904BCD4E1F72E64D003A76D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904BCD311F72E64C003A76D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904BCD381F72E64C003A76D7;
+			remoteInfo = "DSW Kiosk";
+		};
+		904BCD591F72E64D003A76D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904BCD311F72E64C003A76D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904BCD381F72E64C003A76D7;
+			remoteInfo = "DSW Kiosk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		904BCD391F72E64C003A76D7 /* DSW Kiosk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DSW Kiosk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904BCD3C1F72E64C003A76D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		904BCD3E1F72E64C003A76D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		904BCD411F72E64C003A76D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904BCD431F72E64C003A76D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904BCD461F72E64C003A76D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904BCD481F72E64C003A76D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904BCD4D1F72E64D003A76D7 /* DSW KioskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DSW KioskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904BCD511F72E64D003A76D7 /* DSW_KioskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSW_KioskTests.swift; sourceTree = "<group>"; };
+		904BCD531F72E64D003A76D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904BCD581F72E64D003A76D7 /* DSW KioskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DSW KioskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904BCD5C1F72E64D003A76D7 /* DSW_KioskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSW_KioskUITests.swift; sourceTree = "<group>"; };
+		904BCD5E1F72E64D003A76D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DB96661F7418AE00A9E7C8 /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904BCD361F72E64C003A76D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904BCD4A1F72E64D003A76D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904BCD551F72E64D003A76D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904BCD301F72E64C003A76D7 = {
+			isa = PBXGroup;
+			children = (
+				904BCD3B1F72E64C003A76D7 /* DSW Kiosk */,
+				904BCD501F72E64D003A76D7 /* DSW KioskTests */,
+				904BCD5B1F72E64D003A76D7 /* DSW KioskUITests */,
+				904BCD3A1F72E64C003A76D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904BCD3A1F72E64C003A76D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904BCD391F72E64C003A76D7 /* DSW Kiosk.app */,
+				904BCD4D1F72E64D003A76D7 /* DSW KioskTests.xctest */,
+				904BCD581F72E64D003A76D7 /* DSW KioskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904BCD3B1F72E64C003A76D7 /* DSW Kiosk */ = {
+			isa = PBXGroup;
+			children = (
+				904BCD3C1F72E64C003A76D7 /* AppDelegate.swift */,
+				904BCD3E1F72E64C003A76D7 /* ViewController.swift */,
+				904BCD401F72E64C003A76D7 /* Main.storyboard */,
+				904BCD431F72E64C003A76D7 /* Assets.xcassets */,
+				904BCD451F72E64C003A76D7 /* LaunchScreen.storyboard */,
+				904BCD481F72E64C003A76D7 /* Info.plist */,
+				90DB96661F7418AE00A9E7C8 /* Regex.swift */,
+			);
+			path = "DSW Kiosk";
+			sourceTree = "<group>";
+		};
+		904BCD501F72E64D003A76D7 /* DSW KioskTests */ = {
+			isa = PBXGroup;
+			children = (
+				904BCD511F72E64D003A76D7 /* DSW_KioskTests.swift */,
+				904BCD531F72E64D003A76D7 /* Info.plist */,
+			);
+			path = "DSW KioskTests";
+			sourceTree = "<group>";
+		};
+		904BCD5B1F72E64D003A76D7 /* DSW KioskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				904BCD5C1F72E64D003A76D7 /* DSW_KioskUITests.swift */,
+				904BCD5E1F72E64D003A76D7 /* Info.plist */,
+			);
+			path = "DSW KioskUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904BCD381F72E64C003A76D7 /* DSW Kiosk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904BCD611F72E64D003A76D7 /* Build configuration list for PBXNativeTarget "DSW Kiosk" */;
+			buildPhases = (
+				904BCD351F72E64C003A76D7 /* Sources */,
+				904BCD361F72E64C003A76D7 /* Frameworks */,
+				904BCD371F72E64C003A76D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DSW Kiosk";
+			productName = "DSW Kiosk";
+			productReference = 904BCD391F72E64C003A76D7 /* DSW Kiosk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		904BCD4C1F72E64D003A76D7 /* DSW KioskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904BCD641F72E64D003A76D7 /* Build configuration list for PBXNativeTarget "DSW KioskTests" */;
+			buildPhases = (
+				904BCD491F72E64D003A76D7 /* Sources */,
+				904BCD4A1F72E64D003A76D7 /* Frameworks */,
+				904BCD4B1F72E64D003A76D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904BCD4F1F72E64D003A76D7 /* PBXTargetDependency */,
+			);
+			name = "DSW KioskTests";
+			productName = "DSW KioskTests";
+			productReference = 904BCD4D1F72E64D003A76D7 /* DSW KioskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904BCD571F72E64D003A76D7 /* DSW KioskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904BCD671F72E64D003A76D7 /* Build configuration list for PBXNativeTarget "DSW KioskUITests" */;
+			buildPhases = (
+				904BCD541F72E64D003A76D7 /* Sources */,
+				904BCD551F72E64D003A76D7 /* Frameworks */,
+				904BCD561F72E64D003A76D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904BCD5A1F72E64D003A76D7 /* PBXTargetDependency */,
+			);
+			name = "DSW KioskUITests";
+			productName = "DSW KioskUITests";
+			productReference = 904BCD581F72E64D003A76D7 /* DSW KioskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904BCD311F72E64C003A76D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Denver Startup Week";
+				TargetAttributes = {
+					904BCD381F72E64C003A76D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RPRL3T77DT;
+						ProvisioningStyle = Automatic;
+					};
+					904BCD4C1F72E64D003A76D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RPRL3T77DT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 904BCD381F72E64C003A76D7;
+					};
+					904BCD571F72E64D003A76D7 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RPRL3T77DT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 904BCD381F72E64C003A76D7;
+					};
+				};
+			};
+			buildConfigurationList = 904BCD341F72E64C003A76D7 /* Build configuration list for PBXProject "DSW Kiosk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904BCD301F72E64C003A76D7;
+			productRefGroup = 904BCD3A1F72E64C003A76D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904BCD381F72E64C003A76D7 /* DSW Kiosk */,
+				904BCD4C1F72E64D003A76D7 /* DSW KioskTests */,
+				904BCD571F72E64D003A76D7 /* DSW KioskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904BCD371F72E64C003A76D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904BCD471F72E64C003A76D7 /* LaunchScreen.storyboard in Resources */,
+				904BCD441F72E64C003A76D7 /* Assets.xcassets in Resources */,
+				904BCD421F72E64C003A76D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904BCD4B1F72E64D003A76D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904BCD561F72E64D003A76D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904BCD351F72E64C003A76D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904BCD3F1F72E64C003A76D7 /* ViewController.swift in Sources */,
+				904BCD3D1F72E64C003A76D7 /* AppDelegate.swift in Sources */,
+				90DB96671F7418AE00A9E7C8 /* Regex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904BCD491F72E64D003A76D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904BCD521F72E64D003A76D7 /* DSW_KioskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904BCD541F72E64D003A76D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904BCD5D1F72E64D003A76D7 /* DSW_KioskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904BCD4F1F72E64D003A76D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904BCD381F72E64C003A76D7 /* DSW Kiosk */;
+			targetProxy = 904BCD4E1F72E64D003A76D7 /* PBXContainerItemProxy */;
+		};
+		904BCD5A1F72E64D003A76D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904BCD381F72E64C003A76D7 /* DSW Kiosk */;
+			targetProxy = 904BCD591F72E64D003A76D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		904BCD401F72E64C003A76D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904BCD411F72E64C003A76D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904BCD451F72E64C003A76D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904BCD461F72E64C003A76D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904BCD5F1F72E64D003A76D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904BCD601F72E64D003A76D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904BCD621F72E64D003A76D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPRL3T77DT;
+				INFOPLIST_FILE = "DSW Kiosk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.denverstartupweek.DSW-Kiosk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		904BCD631F72E64D003A76D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RPRL3T77DT;
+				INFOPLIST_FILE = "DSW Kiosk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.denverstartupweek.DSW-Kiosk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		904BCD651F72E64D003A76D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RPRL3T77DT;
+				INFOPLIST_FILE = "DSW KioskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.denverstartupweek.DSW-KioskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSW Kiosk.app/DSW Kiosk";
+			};
+			name = Debug;
+		};
+		904BCD661F72E64D003A76D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RPRL3T77DT;
+				INFOPLIST_FILE = "DSW KioskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.denverstartupweek.DSW-KioskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DSW Kiosk.app/DSW Kiosk";
+			};
+			name = Release;
+		};
+		904BCD681F72E64D003A76D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RPRL3T77DT;
+				INFOPLIST_FILE = "DSW KioskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.denverstartupweek.DSW-KioskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DSW Kiosk";
+			};
+			name = Debug;
+		};
+		904BCD691F72E64D003A76D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RPRL3T77DT;
+				INFOPLIST_FILE = "DSW KioskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.denverstartupweek.DSW-KioskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "DSW Kiosk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904BCD341F72E64C003A76D7 /* Build configuration list for PBXProject "DSW Kiosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904BCD5F1F72E64D003A76D7 /* Debug */,
+				904BCD601F72E64D003A76D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904BCD611F72E64D003A76D7 /* Build configuration list for PBXNativeTarget "DSW Kiosk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904BCD621F72E64D003A76D7 /* Debug */,
+				904BCD631F72E64D003A76D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904BCD641F72E64D003A76D7 /* Build configuration list for PBXNativeTarget "DSW KioskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904BCD651F72E64D003A76D7 /* Debug */,
+				904BCD661F72E64D003A76D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904BCD671F72E64D003A76D7 /* Build configuration list for PBXNativeTarget "DSW KioskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904BCD681F72E64D003A76D7 /* Debug */,
+				904BCD691F72E64D003A76D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904BCD311F72E64C003A76D7 /* Project object */;
+}
