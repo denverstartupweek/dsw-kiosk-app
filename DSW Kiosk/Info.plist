@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>KioskAllowedHostsRegex</key>
-	<string>denverstartupweek\\.org|localhost|google\\.com</string>
+	<string>denverstartupweek\.org|localhost|google\.com</string>
 	<key>KioskStartingUrl</key>
 	<string>https://www.denverstartupweek.org/</string>
 	<key>NSAppTransportSecurity</key>

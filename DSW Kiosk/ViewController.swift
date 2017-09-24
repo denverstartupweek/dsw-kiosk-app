@@ -35,6 +35,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         webView.navigationDelegate = self
         webView.allowsBackForwardNavigationGestures = true
         let myURL = URL(string: type(of: self).startingUrl)
+        debugPrint("Loading \(myURL)")
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
     }
@@ -43,10 +44,12 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
                  decidePolicyFor navigationAction: WKNavigationAction,
                  decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         if type(of: self).urlRegex.test(input: navigationAction.request.url!.host!.lowercased()) {
+            debugPrint("Allowing request to \(navigationAction.request.url!.host!)")
             decisionHandler(.allow)
         }
         else
         {
+            debugPrint("Cancelling request to \(navigationAction.request.url!.host!)")
             decisionHandler(.cancel)
         }
     }
