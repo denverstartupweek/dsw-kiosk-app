@@ -37,6 +37,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         let myURL = URL(string: type(of: self).startingUrl)
         debugPrint("Loading \(myURL)")
         let myRequest = URLRequest(url: myURL!)
+        UIApplication.shared.isIdleTimerDisabled = true
         webView.load(myRequest)
     }
     
