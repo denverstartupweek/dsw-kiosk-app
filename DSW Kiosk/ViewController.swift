@@ -35,7 +35,7 @@ class ViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
         webView.navigationDelegate = self
         webView.allowsBackForwardNavigationGestures = true
         let myURL = URL(string: type(of: self).startingUrl)
-        debugPrint("Loading \(myURL)")
+        debugPrint("Loading \(String(describing: myURL))")
         let myRequest = URLRequest(url: myURL!)
         UIApplication.shared.isIdleTimerDisabled = true
         webView.load(myRequest)
